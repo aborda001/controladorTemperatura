@@ -11,7 +11,7 @@ int pinsSize = 5; //pins array size
 int tempMax = 25; //max temp to turn on the pins
 int firstCycle[2] = {6,8}; //first cycle to turn on the pins
 int secondCycle[2] = {16,18}; //second cycle to turn on the pins
-long int interval = 3000; //time interval between switching on the pins
+long int interval = 3000; //time interval in miliseconds between switching on the pins
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 
 void setup() {
